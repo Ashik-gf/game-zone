@@ -1,0 +1,187 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+     /* border: 2px solid tomato;  */
+}
+
+.right_nav {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* border: 2px solid tomato; */
+    /* background-color: blueviolet; */
+}
+
+.right_nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    /* background-color: rgb(196, 158, 232); */
+    border-radius: 10px;
+
+}
+
+.right_nav a:hover {
+    cursor: pointer;
+}
+
+.account {
+     /* border: 2px solid tomato; */
+    width: 20%;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.account a {
+    text-decoration: none;
+
+}
+.banner{
+    height: 70vh;
+    /* border: 2px solid tomato; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bnr{
+    /* border: 2px solid blue; */
+    height: 350px;
+    width: 750px;
+    background-image: url(Entic\ Photos/bnr.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 22px;
+}
+.right_part h3{
+color: white;
+text-align: center;
+font-size: 20px;
+border-bottom: 2px solid gray;
+padding-bottom: 10px;
+
+}
+.right_part{
+    border-radius: 10px;
+ width: 50%;
+ height: 300px;
+ background-color: #015A89;
+ opacity: 80%;
+
+    
+}
+.right_part p{
+    color: white;
+    text-align: center;
+}
+
+.right_part .btn{
+height: 40px;
+width: 100px;
+border-radius: 10px;
+background-color: rgb(87, 27, 143);
+display: block;
+margin: 50px auto;
+
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.gap_part{
+    /* border: 2px solid blue; */
+    width: 40%;
+}
+.slider{
+    /* border: 2px solid tomato; */
+    height: 400px;
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    grid-template-rows: 420px;
+    gap: 20px; 
+}
+.card1{
+    /* border: 2px solid tomato; */
+    /* margin: 0px; */
+    
+}
+.card1 img{
+    height: 250px;
+    
+    
+}
+.card1 h3{
+background-color: aqua;
+    text-align: center;
+    
+}
+.card1 p{
+ color: blueviolet;
+ font-size: 23px;
+ text-align: center;
+ background-color: black;
+}
+.card1 button{
+    height: 40px;
+    width: 100px;
+    background-color: blueviolet;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.card1 button a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:750px) {
+    .right_nav{
+        display: flex;
+    justify-content: start;
+    gap: 10px;
+    /* background-color: blue; */
+
+    }
+    .right_nav a{
+        font-size: 13px;
+    }
+    .account{
+        font-size: 13px;
+    }
+.right_part{
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: #015A89;
+    opacity: 80%;
+       
+   }
+}
+
+
+

@@ -1,0 +1,370 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+.banner{
+    height: 500px;
+    width: 100%;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+}
+.group1{
+    /* background-color: beige; */
+    display: block;
+    margin: 40px auto;
+}
+
+
+.group1-p img{
+    height: 478px;
+    width: 350px;
+    margin-top: 18px;
+    margin-right: 100px;
+    padding-right: 100px;
+}
+
+.group1 h1{
+padding-left: 50px;
+padding-top: 40px;
+font-size: 50px;
+}
+.group1 p{
+    margin-top: 30px;
+    line-height: 24px;
+    padding-left: 50px;
+}
+.group1 button {
+    margin: 10px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    background: #E55473;
+    margin-left: 50px;
+}
+.group1 button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.featured{
+    height: 700px;
+    width: 70%;
+    display: block;
+    margin: 100px auto;
+}
+.head_main{
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    padding: 20px;
+}
+.head_main h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+.slider{
+    width: 90%;
+    height: 450px;
+    margin: 30px auto;
+display: flex;
+justify-content: space-between;
+/* background-color: gray; */
+text-align: center;
+}
+.flower1 img{
+    height: 350px;
+    width: 250px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+.flower2 img{
+    height: 350px;
+    width: 250px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    
+}
+.flower3 img{
+    height: 350px;
+    width: 250px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    
+    
+}
+/* start table css */
+.table{
+    height: 150px;
+    width: 80%;
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+text-align: center;
+margin: 50px auto;
+}
+
+.table table tr td a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.table table tr td img{
+    height: 40px;
+    margin-top: 40px;
+}
+
+.table table{
+    display: block;
+    width: 90%;
+    margin: 0px 70px;
+    border-spacing: 30px 10px;
+    
+}
+.table table tr{
+    margin-top: 40px;
+}
+
+
+
+
+
+.slider2{
+    width: 100%;
+    height: 400px;
+    display: block;
+    margin: 150px auto;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+}
+
+
+
+.group2{
+    height: 300px;
+    width: 80%;
+    display: flex;
+    margin: 0px auto;
+    padding: 50px;
+    height: 280px;
+    width: 70%;
+    
+
+}
+.left_side{
+/* background-color: aqua; */
+width: 60%;
+}
+
+
+
+.left_side h1{
+    /* margin-top: 40px; */
+    padding: 10px;
+    margin-top: 100px;
+    font-family: serif;
+    font-size: 30px;
+    /* background-color: blue; */
+
+}
+.left_side p{
+    line-height: 26px;
+    text-align: center;
+    padding: 5px;
+}
+.left_side button{
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: #E55473;
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+}
+.left_side button a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+
+.right_side img{
+    height: 220px;
+    padding: 40px;
+    margin-left: 10px;
+    /* margin-top: 20px; */
+}
+.instagram{
+    /* display: block;
+    margin: 0px auto; */
+    height: 500px;
+    width: 100%;
+    /* background-color: #E55473; */
+}
+
+.header2 h2{
+display: block;
+text-align: center;
+font-family: serif;
+font-size: 25px;
+}
+.header2 p{
+    padding: 10px;
+    text-align: center;
+    line-height: 27px;
+}
+
+
+.flower_box{
+    display: flex;
+justify-content: space-between;
+    width: 80%;
+    padding: 40px;
+    margin-left: 50px;
+}
+.box1 img{
+    height: 300px;
+    width: 260px;
+    padding: 10px;
+}
+.box2 img{
+    height: 300px;
+    width: 260px;
+    padding: 10px;
+}
+.box3 img{
+    height: 300px;
+    width: 260px;
+    padding: 10px;
+}
+.box4 img{
+    height: 300px;
+    width: 250px;
+    padding: 10px;
+}
+.update{
+    height: 300px;
+    padding: 0px;
+    width: 85%;
+    margin: 50px auto;
+    padding-top: 50px;
+    background-image: url(Rectangle\ 9.png);
+     background-size: cover;
+     background-position: center;
+    
+}
+.update h2{
+    text-align: center;
+    padding-top: 70px;
+}
+.update p{
+    /* display: block; */
+    text-align: center;
+    padding: 5px;
+    /* margin: 0px auto; */
+}
+
+.main_search{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+.main_search input{
+    height: 50px;
+    width: 478px;
+    border: 2px solid white;
+    background-color: white;
+    
+}
+.main_search input::placeholder{
+    padding: 60px;
+}
+
+.deal {
+    display: block;
+    margin: 0px auto;
+    margin-top: -150px;
+}
+
+
+.main_search label button{
+    height: 52px;
+    width: 80px;
+    background-color: #E55473;
+    border-radius: 0px 10px 10px 0px;}
+
+    .footer{
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        /* padding: 50px; */
+        color: white;
+        font-family: serif;
+    }
+    .footer_box{
+        height: 200px;
+        width: 500px;
+         /* background-color: blue; */
+        margin: 50px auto;
+        padding-top: 50px;
+    }
+    .footer_box span{
+        color: #E55473;
+
+    }
+    .footer_box h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .footer_box p{
+        text-align: center;
+        padding: 10px;
+    }
+    .footer_box small{
+        text-align: center;
+        letter-spacing: 4px;
+    }
+    .contact{
+        height: 200px;
+        width: 85%;
+        background-color: rgb(10, 104, 104);
+        display: block;
+        margin: 20px auto;  
+        border-radius: 10px;
+    }
+.contact h2{
+    color: white;
+    text-align: center; 
+    padding: 20px;
+    border-bottom: 2px solid whitesmoke;
+}
+.contact table tr td a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.contact table tr td a:hover{
+    cursor: pointer;
+    
+}
+
+
+
+
+.contact table tr td{
+    /* border: 2px solid white; */
+   text-align: center;
+}
+.contact table{
+    padding: 20px;
+    margin-left: 200px;
+}
+.contact table tr td img{
+
+    height: 20px;
+    margin-left: 30px;
+   
+} 
+    
