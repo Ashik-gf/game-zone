@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+
+
+    <title>Document</title>
+</head>
+<body>
+    
+<header class=" bg-[#264653]">
+    <div class="navbar flex justify-between lg:w-3/4 mx-auto bg-[#264653]">
+        <div class="sm:flex sm:justify-start">
+          <div class="dropdown">
+            <label tabindex="0"class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>Shop</a></li>
+              <li><a>News</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class=" text-white text-2xl">Biker ZOne</a>
+        </div>
+        <!-- lg:Display -->
+        <div class=" text-white hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li tabindex="0">
+              <details>
+                <summary>Account</summary>
+                <ul class="p-2">
+                  <li><a>Profile</a></li>
+                  <li><a>Loging</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a>About Us</a></li>
+          </ul>
+          <button class="  bg-[#E76F51] border-none text-white lg:h-[35px] rounded w-28"><a>Login</a></button>
+        </div>
+        
+            <button class="btn lg:hidden bg-[#E76F51] border-none text-white">Login</button>
+        
+      </div>
+</header>
+    <div class="banner bg-[#264653] w-full lg:flex lg:justify-center">
+        <div class="carousel bg-[#264653] lg:h-[480px] lg:w-[80%] bg-violate-800">
+            <div id="slide1" class="carousel-item  relative w-full lg:flex lg:justify-center grid grid-cols-1 gap-1  lg:gap-20">
+              <h1 class=" text-white lg:my-[100px] lg:w-[50%]">
+                <p class="text-5xl text-white font-light text-center text-bold p-4">Honda Cbr 512</p>
+                <p class="text-white text-center">THis is our best time for Buy a Bike.<br>
+                For this time i will buy a bike for my future project.<br>
+            </p>
+            <button class="bg-[#E76F51;] btn p-2 border-none my-4 block mx-auto lg:block md:mx-auto md:block">Purches</button>
+              </h1>
+              <img src="/images//slider/bike1.png" class="lg:w-[430px] lg:h-[420px] h-[300px] md:block md:mx-auto" />
+              
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item  relative w-full flex justify-center gap-20">
+              
+              <img src="/images//slider/bike2.png" class=" w-[200px] h-[300px] lg:w-[500px] lg:h-[420px]" />
+              
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item  relative w-full flex justify-center gap-20">
+              
+              <img src="/images//slider/bike3.png" class="w-[500px] h-[420px]" />
+              
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item  relative w-full flex justify-center gap-20">
+              
+              <img src="/images//slider/bike4.png" class="w-[500px] h-[420px]" />
+              
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+          </div>
+    </div>
+    <!-- latest Bick -->
+    <div class=" md:h-[100px] h-[100px] lg:h-[100px] w-full">
+      <h1 class="text-center text-4xl font-semibold p-4"> <spaqn class="text-[#ce3dae]">Latest</spaqn> <span class="text-red-700">News</span>!</h1>
+    </div> 
+      <div class="card h-[1500px] md:h-[1000px] lg:h-[550px] lg:w-full lg:grid lg:grid-cols-3 lg:gap-2 md:grid md:grid-cols-2 grid grid-cols-1 gap-4">
+        <!-- item1 -->
+        <div class="item1 shadow-xl shadow-blue-700 rounded-xl  h-[450px]"><a href="#"><img class="lg:h-[300px] lg:w-[270px] rounded mx-auto" src="images/others/latest1.png"></a>
+          <p class="text-black text-center text-xl p-2">Ducati XDIAVEL S-73</p>
+          <p class="text-center text-black p-1 text-sm">This is the best Speed Bike in the world.</p>
+          <button class="btn block mx-auto mt-2">Read More</button>
+          </div>
+
+          <!-- item 2 -->
+          <div class="item1 shadow-xl shadow-blue-700 rounded-xl h-[450px]"><a href="#"><img class="lg:h-[300px] lg:w-[270px] rounded mx-auto" src="images/others/latest2.png"></a>
+            <p class="text-black text-center text-xl p-2">Ducati XDIAVEL S-73</p>
+            <p class="text-center text-black p-1 text-sm">This is the best Speed Bike in the world.</p>
+            <button class="btn block mx-auto mt-2">Read More</button>
+            </div>
+            <!-- item3 -->
+            <div class="item1 shadow-xl shadow-blue-700 rounded-xl h-[450px]"><a href="#"><img class="lg:h-[300px] lg:w-[270px] rounded mx-auto" src="images/others/latest3.png"></a>
+              <p class="text-black text-center text-xl p-2">Ducati XDIAVEL S-73</p>
+              <p class="text-center text-black p-1 text-sm">This is the best Speed Bike in the world.</p>
+              <button class="btn block mx-auto mt-2">Read More</button>
+              </div>
+    </div>
+    <!--HAppy Clint Say -->
+    <div class=" clint_say lg:w-[900px] lg:h-[410px] lg:mx-auto w-[full] md:h-[740px] md:w-full md:grid md:grid-cols-2 grid-cols-1 gap-4 h-[1300px]  lg:grid lg:grid-cols-3">
+      <!-- first clint -->
+      <div class="1st_clint h-[350px] p-2 my-10 rounded-xl mx-auto w-[250px] bg-slate-500">
+  <img class="h-[130px] p-4 mx-auto" src="images/others/user-1.png">
+  <p class=" text-center text-white">This is my best Programmer site. i love to do this programming sit.
+    im happy to learn this hero programming site.tnxs
+  </p>
+  <div class="rating p-2 px-16">
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  </div>
+  <p class="text-center text-white text-sm font-bold">Rating Our site</p>
+  <p class="text-center text-white text-sm font-bold">Banker</p>
+</div>
+<!-- secound clink -->
+<div class="1st_clint h-[350px] p-2 my-10 rounded-xl mx-auto w-[250px] bg-slate-500">
+  <img class="h-[130px] p-4 mx-auto" src="images/others/user-2.png">
+  <p class=" text-center text-white">This is my best Programmer site. i love to do this programming sit.
+    im happy to learn this hero programming site.tnxs
+  </p>
+  <div class="rating p-2 px-16">
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  </div>
+  <p class="text-center text-white text-sm font-bold">Rating Our site</p>
+  <p class="text-center text-white text-sm font-bold">Banker</p>
+</div>
+<!-- third clint -->
+<div class="1st_clint h-[350px] p-2 my-10 rounded-xl mx-auto w-[250px] bg-slate-500">
+  <img class="h-[130px] p-4 mx-auto" src="images/others/user-3.png">
+  <p class=" text-center text-white">This is my best Programmer site. i love to do this programming sit.
+    im happy to learn this hero programming site.tnxs
+  </p>
+  <div class="rating p-2 px-16">
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  </div>
+  <p class="text-center text-white text-sm font-bold">Rating Our site</p>
+  <p class="text-center text-white text-sm font-bold">Banker</p>
+</div>
+<!-- <div class="1st_clint">
+  <img src="images/others/user-2.png">
+</div>
+<div class="1st_clint">
+  <img src="images/others/user-3.png"> -->
+</div>
+
+    <!-- HAppy Clint Say End -->
+
+</body>
+</html>
