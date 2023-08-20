@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Summar Sell</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+
+<style>
+    .text-work{
+        font-family: 'Work Sans';
+    }
+</style>
+</head>
+<body class="text-work bg-[#F8F8F8] text-black">
+    <scetion class="w-full ">
+        <div class="banner-box bg-[#F9F6E2]">
+            <div class="banner w-[60%] mx-auto
+        lg:flex md:flex md:w-[70%]
+        bg-[#F9F6E2] lg:h-[400px]">
+        <!-- textSection -->
+            <div class="textSection m-auto lg:p-4">
+                <p class="text-center font-medium text-xl text-[#111] p-8">--SALE FEVER---</p>
+                <h1 class="text-center text-[#111] font-bold text-2xl lg:text-3xl pb-8">Purchaese TK 200 or <br>
+                above & get <span class="text-[#E527B2]">20% off</span></h1>
+                 <div class=" flex gap-2">
+                    <p class=" text-[#111] text-center font-medium p-1">usePromo code</p> 
+                    <button class="text-white bg-pink-600 p-1 rounded-md" type="submit">SELL200</button>
+                 </div>
+            </div>
+            <!-- img Section -->
+            <div class="photoSection  m-auto ">
+          <img class="h-72 block " src="./images/Summer 1.png">
+            </div>
+        
+        </div>
+        </div>
+<!-- shoping cart -->
+<div class="section lg:flex sm:block w-[90%] mx-auto bg-[#F8F8F8]">
+    <div class="shoping_cart block pt-4 w-[90%] mx-auto bg-[#F8F8F8;]">
+        <!-- kitchen  -->
+        <h1 class="font-semibold ml-20 p-2">Kitchenware</h1>
+        <div class="main-box grid grid-cols-1 mx-auto gap-4 
+        lg:grid-cols-3 md:grid-cols-2 w-[85%] h-auto">
+            <!-- 1st iteam box -->
+            <div onclick=" getInformation(this)" class="item p-2 bg-white border-2 shadow-lg
+         h-[320px] w-[230px] ">
+           <div class="photo bg-[#1111110D] p-4">
+            <img class="w-[150px] h-[150px] mx-auto" src="./images/prod1.png">
+           </div>
+                <div class="rating flex justify-center p-2">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <p class="text-center p-2">K.Accessories</p>
+                  <p class="text-center p-2">39.00 Tk</p>
+            
+        </div>
+        <!-- 2nd iteam box -->
+        <div onclick=" getInformation(this)" class="item p-2 bg-white border-2 shadow-lg
+        h-[320px] w-[230px] ">
+          <div class="photo bg-[#1111110D] p-4">
+           <img class="w-[150px] h-[150px] mx-auto" src="./images/prod2.png">
+          </div>
+               <div class="rating flex justify-center p-2">
+                   <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                   <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                   <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                   <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                   <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                 </div>
+                 <p class="text-center p-2">A.Accessories</p>
+                 <p class="text-center p-2">25.00 Tk</p>
+           
+       </div>
+       <!-- 3rd box -->
+       <div onclick=" getInformation(this)" class="item p-2 bg-white border-2 shadow-lg
+       h-[320px] w-[230px] ">
+         <div class="photo bg-[#1111110D] p-4">
+          <img class="w-[150px] h-[150px] mx-auto" src="./images/prod3.png">
+         </div>
+              <div class="rating flex justify-center p-2">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+                <p class="text-center p-2">Home Coocker</p>
+                <p class="text-center p-2">39.00 Tk</p>
+          
+      </div>
+        </div>
+    <!-- sportsWare -->
+    <h1 class="font-semibold ml-20 p-2 m-4"> SportsWare</h1>
+    <div class="mainbox-2 main-box grid grid-cols-1 mx-auto gap-2 
+    lg:grid-cols-3 md:grid-cols-2 w-[85%] h-auto">
+    
+        <div onclick=" getInformation(this)" class="item p-2 bg-white border-2 shadow-lg
+     h-[320px] w-[230px] ">
+       <div class="photo bg-[#1111110D] p-4">
+        <img class="w-[150px] h-[150px] mx-auto" src="./images/prod4.png">
+       </div>
+            <div class="rating flex justify-center p-2">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <p id="k.acc" class="text-center p-2">Sports Black Cap</p>
+              <p class="text-center p-2">49.00 Tk</p>
+        
+    </div>
+    <!-- 5th box -->
+    <div onclick=" getInformation(this)" class="item p-2 bg-white border-2 shadow-lg
+    h-[320px] w-[230px] ">
+      <div class="photo bg-[#1111110D] p-4">
+       <img class="w-[150px] h-[150px] mx-auto" src="./images/prod5.png">
+      </div>
+           <div class="rating flex justify-center p-2">
+               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+             </div>
+             <p class="text-center p-2">Full Jersey Set</p>
+             <p class="text-center p-2">69.00 Tk</p>
+       
+    </div>
+    <!-- 6th box -->
+    <div onclick=" getInformation(this)" class="item p-2 bg-white border-2 shadow-lg
+    h-[320px] w-[230px] ">
+     <div class="photo bg-[#1111110D] p-4">
+      <img class="w-[150px] h-[150px] mx-auto" src="./images/prod6.png">
+     </div>
+          <div class="rating flex justify-center p-2">
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <p class="text-center p-2">Sports Cates</p>
+            <p class="text-center p-2">159.00 Tk</p>
+      
+    </div> 
+    </div>
+     <!-- h box -->
+    </div>
+
+    
+<div  class="account w-full rounded-lg lg:w-[440px] mt-[45px] mx-auto h-[470px] bg-[#F8F8F8] shadow-lg pr-4 mr-6">
+  <h class=" font-6 font-bold p-2">Have coupon?</h>
+    <div class=" w-full bg-[#F8F8F7] shadow-lg  flex p-2 mt-4 md:justify-center">
+        <input placeholder="cupon Code"  type="text" class=" border-r-0 w-[170px] bg-gray
+        bg-white text-black
+         placeholder:text-gray-400 placeholder:p-2 pl-2 rounded rounded-r-none" id="inputId">
+         <button
+         id="cuponBtn"
+         disabled
+         class="btn disabled:text-black hover:bg-[#E527B2]  border-none shadow-md bg-[#E527B2] disabled:bg-gray-400 rounded-l-none  p-4 text-white font-bold  rounded-r-md"
+       >
+         Apply
+       </button>
+    </div>
+    <div  class="purchase ">
+        <div id="itemBox" class="iteamname h-[200px] overflow-y-auto p-4">
+           
+
+
+        </div>
+        <hr>
+        <div class="total pl-8">
+            <p class="pt-4">Total price: <span id="totalAmmount">00</span> Tk</p>
+        <p class="p-1">Discount: <span id="discount">00</span> Tk</p>
+        <p class="p-2">Grand Total: <span id="grandTotal">00</span> Tk</p>
+
+        <!-- button Modals -->
+        <hr class="border-2">
+        <div class="div flex justify-center p-2" >
+          
+          <button
+              onclick="my_modal_1.showModal()"
+              id="payBtn"
+              disabled
+              class="btn disabled:text-black
+               disabled:bg-gray-400 bg-[#E527B2] border-none mt-4
+               hover:bg-[#9F0D7F]  bg-pink py-3 absolute text-white font-bold text-base rounded-md w-[200px]"
+            >
+              Make Purchase
+            </button>
+        </div>
+        <dialog id="my_modal_1" class="modal ">
+          <form method="dialog" class="modal-box bg-white shadow-lg">
+            <img class="h-32 mx-auto p-2" src="./images/congo.png">
+            <p class="py-4 text-2xl font-bold text-center">Congratulations</p>
+            <div class="modal-action">
+              <!-- if there is a button in form, it will close the modal -->
+              <button id="homeBtn" class="bg-[#E527B2] p-2 rounded text-white font-bold mx-auto w-[150px]">Go Home</button>
+            </div>
+          </form>
+        </dialog>
+        </div>
+
+    </div>
+
+    </div>
+</div>
+
+
+    </scetion>
+    <script src="./index.js"></script>
+</body>
+</html>
