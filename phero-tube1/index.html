@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>phero Tube</title>
+</head>
+<body>
+    <header class="w-full bg-white">
+<div class="navBar w-full lg:w-[80%] md:w-[80%] mx-auto h-16 bg-white flex justify-between">
+    <div class="log">
+        <img class="p-2 ml-4 sm:w-[150px] pt-2 h-[50px]" src="image/Logo.png">
+    </div>
+    <div class="p-2">
+        <button onclick="shortBy()" id="viewBtn" class="btn p-1 bg-slate-700 text-white font-bold">
+            sort bY views
+        </button>
+    </div>
+    <div class="p-2">
+        <!-- <button class="btn bg-slate-700 text-white font-bold">Bloge</button> -->
+        <!-- You can open the modal using ID.showModal() method -->
+<button onclick="newTab()" class="btn focus:bg-lime-800 bg-slate-700 text-white font-bold" ><a href="./blog.html_blank">Blog</a></button>
+<dialog id="my_modal_4" class="modal">
+  <form method="dialog" class="modal-box w-11/12 max-w-5xl">
+    <h3 class="font-bold text-lg">
+        FaQ
+    </h3>
+   
+        </h5>
+    </p>
+    <div class="modal-action">
+      <!-- if there is a button, it will close the modal -->
+      <button class="btn">Close</button>
+    </div>
+  </form>
+</dialog>
+
+
+
+    </div>
+</div>
+
+    </header>
+    <main class="my-4">
+        
+            <div id="tabbtn" class="tabs tabs-boxed flex justify-center gap-2">
+                <!-- <a class="tab">Tab 1</a>  -->
+              </div>
+    </main>
+    <!-- all body news -->
+    <section class="w-full">
+        <div id="mainCardDatabox" class="card container mx-auto
+        grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 bg-gray-100 shadow-xl">
+          </div>
+    </section>
+    <section class="w-full">
+        <div id="cardDatabox" class="card container mx-auto
+        grid lg:grid-cols-3  md:grid-cols-2 grid-cols-1 gap-4 bg-gray-100 shadow-xl">
+          </div>
+    </section>
+    <section class="w-full">
+        <div id="viewsCardBox" class="card container mx-auto
+        grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 bg-gray-100 shadow-xl">
+          </div>
+    </section>
+    
+    <!-- no video -->
+    <section class=" w-full">
+        <div id="novideos">
+
+        </div>
+    </section>
+    <!-- all videos -->
+    <section>
+        <div id="allnews" class="div grid grid-cols-3 gap-4">
+
+        </div>
+    </section>
+
+
+    <script src="tube.js"></script>
+</body>
+</html>
